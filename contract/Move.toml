@@ -1,0 +1,16 @@
+[package]
+name = "contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+steganography_contract = "7e72f7e4e1ab85ba5d2f5ad0e56c2599651652ef770ba84c6823ef80e4ae3114"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
